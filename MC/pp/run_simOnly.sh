@@ -1,0 +1,1 @@
+o2-sim -g external -n 1 --configKeyValues "GeneratorExternal.fileName=$HOME/alice/AEGIS/GeneratorSpectators/GeneratorSpectators.C;GeneratorExternal.funcName=GeneratorSingleNeutron();SimCutParams.maxRTracking=100;ZDCSimParam.recordSpatialResponse=true" -m ABSO DIPO PIPE SHIL ZDC --readoutDetectors ZDC --run 302000 -j 8

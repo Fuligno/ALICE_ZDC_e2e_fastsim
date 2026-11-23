@@ -1,0 +1,1 @@
+o2-sim-serial -g pythia8 -n 1 --configKeyValues "GeneratorPythia8.config=pythia8_536.cfg;SimCutParams.maxRTracking=100;ZDCSimParam.recordSpatialResponse=true" -m ABSO DIPO PIPE SHIL ZDC --readoutDetectors ZDC --run 310000
